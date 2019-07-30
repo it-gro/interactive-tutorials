@@ -8,15 +8,13 @@ There is no need to download anything - Just click on the chapter you wish to be
 
 learn-c.org is still under construction - If you wish to contribute tutorials, please click on `Contributing Tutorials` down below.
 
-Table of Contents
------------------
-
 ### Learn the Basics
 
 - [[Hello, World!]]
 - [[Variables and Types]]
 - [[Arrays]]
 - [[Multidimensional Arrays]]
+- [[Conditions]]
 - [[Strings]]
 - [[For loops]]
 - [[While loops]]

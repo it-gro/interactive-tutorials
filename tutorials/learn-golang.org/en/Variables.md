@@ -24,10 +24,9 @@ To define a floating point number, you may use one of the following notations:
     fmt.Println(d)
 
 ### Strings
-Like many programming languages, string is also one important kind of types in Go.
-Strings are defined either with a single quote or a double quotes.
+Strings in Go are defined with double quotes.
 
-    var s string = 'This is string s'
+    var s string = "This is string s"
     fmt.Println(s)
     
 
@@ -63,9 +62,9 @@ Exercise
 
 You must print out to the console the following:
 
-    Jhon Doe
+    John Doe
     24
-    154. 61
+    154.61
 
 
 Tutorial Code
@@ -76,17 +75,17 @@ Tutorial Code
     func main() {
         name := "Chris Mien"
         age := 29
-        weigth := 200.21
+        weight := 200.21
         fmt.Println(name)
         fmt.Println(age)
-        fmt.Println(weigth)
+        fmt.Println(weight)
     }
 
 
 Expected Output
 ---------------
 
-    Jhon Doe
+    John Doe
     24
     154.61
 
@@ -97,10 +96,10 @@ Solution
     package main
     import "fmt"
     func main() {
-        name := "Jhon Doe"
+        name := "John Doe"
         age := 24
-        weigth := 154.61
+        weight := 154.61
         fmt.Println(name)
         fmt.Println(age)
-        fmt.Println(weigth)
+        fmt.Println(weight)
     }
